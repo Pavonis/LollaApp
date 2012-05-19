@@ -38,22 +38,22 @@
 		C7F8BB46156837BA006B0C9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C7F8BB48156837BA006B0C9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7F8BB4A156837BA006B0C9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C7F8BB4E156837BA006B0C9D /* HackLolla App-Info.plist */ = {isa = PBXFileReference; path = "HackLolla App-Info.plist"; sourceTree = "<group>"; };
+		C7F8BB4E156837BA006B0C9D /* HackLolla App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackLolla App-Info.plist"; sourceTree = "<group>"; };
 		C7F8BB50156837BA006B0C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7F8BB52156837BA006B0C9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C7F8BB54156837BA006B0C9D /* HackLolla App-Prefix.pch */ = {isa = PBXFileReference; path = "HackLolla App-Prefix.pch"; sourceTree = "<group>"; };
-		C7F8BB55156837BA006B0C9D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7F8BB54156837BA006B0C9D /* HackLolla App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackLolla App-Prefix.pch"; sourceTree = "<group>"; };
+		C7F8BB55156837BA006B0C9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7F8BB56156837BA006B0C9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C7F8BB59156837BA006B0C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		C7F8BB5B156837BA006B0C9D /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		C7F8BB5B156837BA006B0C9D /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		C7F8BB5C156837BA006B0C9D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C7F8BB5E156837BA006B0C9D /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		C7F8BB5E156837BA006B0C9D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C7F8BB5F156837BA006B0C9D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C7F8BB66156837BB006B0C9D /* HackLolla AppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackLolla AppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F8BB67156837BB006B0C9D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		C7F8BB6F156837BB006B0C9D /* HackLolla AppTests-Info.plist */ = {isa = PBXFileReference; path = "HackLolla AppTests-Info.plist"; sourceTree = "<group>"; };
+		C7F8BB6F156837BB006B0C9D /* HackLolla AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackLolla AppTests-Info.plist"; sourceTree = "<group>"; };
 		C7F8BB71156837BB006B0C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C7F8BB73156837BB006B0C9D /* HackLolla_AppTests.h */ = {isa = PBXFileReference; path = HackLolla_AppTests.h; sourceTree = "<group>"; };
+		C7F8BB73156837BB006B0C9D /* HackLolla_AppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HackLolla_AppTests.h; sourceTree = "<group>"; };
 		C7F8BB74156837BB006B0C9D /* HackLolla_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackLolla_AppTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
