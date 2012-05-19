@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7F8BB47156837BA006B0C9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8BB46156837BA006B0C9D /* UIKit.framework */; };
+		C7F8BB49156837BA006B0C9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8BB48156837BA006B0C9D /* Foundation.framework */; };
+		C7F8BB4B156837BA006B0C9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8BB4A156837BA006B0C9D /* CoreGraphics.framework */; };
+		C7F8BB51156837BA006B0C9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7F8BB4F156837BA006B0C9D /* InfoPlist.strings */; };
+		C7F8BB53156837BA006B0C9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F8BB52156837BA006B0C9D /* main.m */; };
+		C7F8BB57156837BA006B0C9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F8BB56156837BA006B0C9D /* AppDelegate.m */; };
+		C7F8BB5A156837BA006B0C9D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7F8BB58156837BA006B0C9D /* MainStoryboard.storyboard */; };
+		C7F8BB5D156837BA006B0C9D /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F8BB5C156837BA006B0C9D /* MasterViewController.m */; };
+		C7F8BB60156837BA006B0C9D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F8BB5F156837BA006B0C9D /* DetailViewController.m */; };
+		C7F8BB68156837BB006B0C9D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8BB67156837BB006B0C9D /* SenTestingKit.framework */; };
+		C7F8BB69156837BB006B0C9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8BB46156837BA006B0C9D /* UIKit.framework */; };
+		C7F8BB6A156837BB006B0C9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F8BB48156837BA006B0C9D /* Foundation.framework */; };
+		C7F8BB72156837BB006B0C9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7F8BB70156837BB006B0C9D /* InfoPlist.strings */; };
+		C7F8BB75156837BB006B0C9D /* HackLolla_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F8BB74156837BB006B0C9D /* HackLolla_AppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7F8BB6B156837BB006B0C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7F8BB39156837BA006B0C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7F8BB41156837BA006B0C9D;
+			remoteInfo = "HackLolla App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7F8BB42156837BA006B0C9D /* HackLolla App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HackLolla App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F8BB46156837BA006B0C9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C7F8BB48156837BA006B0C9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7F8BB4A156837BA006B0C9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C7F8BB4E156837BA006B0C9D /* HackLolla App-Info.plist */ = {isa = PBXFileReference; path = "HackLolla App-Info.plist"; sourceTree = "<group>"; };
+		C7F8BB50156837BA006B0C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7F8BB52156837BA006B0C9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7F8BB54156837BA006B0C9D /* HackLolla App-Prefix.pch */ = {isa = PBXFileReference; path = "HackLolla App-Prefix.pch"; sourceTree = "<group>"; };
+		C7F8BB55156837BA006B0C9D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7F8BB56156837BA006B0C9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7F8BB59156837BA006B0C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C7F8BB5B156837BA006B0C9D /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		C7F8BB5C156837BA006B0C9D /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C7F8BB5E156837BA006B0C9D /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		C7F8BB5F156837BA006B0C9D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C7F8BB66156837BB006B0C9D /* HackLolla AppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackLolla AppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7F8BB67156837BB006B0C9D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C7F8BB6F156837BB006B0C9D /* HackLolla AppTests-Info.plist */ = {isa = PBXFileReference; path = "HackLolla AppTests-Info.plist"; sourceTree = "<group>"; };
+		C7F8BB71156837BB006B0C9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7F8BB73156837BB006B0C9D /* HackLolla_AppTests.h */ = {isa = PBXFileReference; path = HackLolla_AppTests.h; sourceTree = "<group>"; };
+		C7F8BB74156837BB006B0C9D /* HackLolla_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackLolla_AppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7F8BB3F156837BA006B0C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8BB47156837BA006B0C9D /* UIKit.framework in Frameworks */,
+				C7F8BB49156837BA006B0C9D /* Foundation.framework in Frameworks */,
+				C7F8BB4B156837BA006B0C9D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F8BB62156837BB006B0C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8BB68156837BB006B0C9D /* SenTestingKit.framework in Frameworks */,
+				C7F8BB69156837BB006B0C9D /* UIKit.framework in Frameworks */,
+				C7F8BB6A156837BB006B0C9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7F8BB37156837BA006B0C9D = {
+			isa = PBXGroup;
+			children = (
+				C7F8BB4C156837BA006B0C9D /* HackLolla App */,
+				C7F8BB6D156837BB006B0C9D /* HackLolla AppTests */,
+				C7F8BB45156837BA006B0C9D /* Frameworks */,
+				C7F8BB43156837BA006B0C9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F8BB43156837BA006B0C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8BB42156837BA006B0C9D /* HackLolla App.app */,
+				C7F8BB66156837BB006B0C9D /* HackLolla AppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7F8BB45156837BA006B0C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8BB46156837BA006B0C9D /* UIKit.framework */,
+				C7F8BB48156837BA006B0C9D /* Foundation.framework */,
+				C7F8BB4A156837BA006B0C9D /* CoreGraphics.framework */,
+				C7F8BB67156837BB006B0C9D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7F8BB4C156837BA006B0C9D /* HackLolla App */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8BB55156837BA006B0C9D /* AppDelegate.h */,
+				C7F8BB56156837BA006B0C9D /* AppDelegate.m */,
+				C7F8BB58156837BA006B0C9D /* MainStoryboard.storyboard */,
+				C7F8BB5B156837BA006B0C9D /* MasterViewController.h */,
+				C7F8BB5C156837BA006B0C9D /* MasterViewController.m */,
+				C7F8BB5E156837BA006B0C9D /* DetailViewController.h */,
+				C7F8BB5F156837BA006B0C9D /* DetailViewController.m */,
+				C7F8BB4D156837BA006B0C9D /* Supporting Files */,
+			);
+			path = "HackLolla App";
+			sourceTree = "<group>";
+		};
+		C7F8BB4D156837BA006B0C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8BB4E156837BA006B0C9D /* HackLolla App-Info.plist */,
+				C7F8BB4F156837BA006B0C9D /* InfoPlist.strings */,
+				C7F8BB52156837BA006B0C9D /* main.m */,
+				C7F8BB54156837BA006B0C9D /* HackLolla App-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7F8BB6D156837BB006B0C9D /* HackLolla AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8BB73156837BB006B0C9D /* HackLolla_AppTests.h */,
+				C7F8BB74156837BB006B0C9D /* HackLolla_AppTests.m */,
+				C7F8BB6E156837BB006B0C9D /* Supporting Files */,
+			);
+			path = "HackLolla AppTests";
+			sourceTree = "<group>";
+		};
+		C7F8BB6E156837BB006B0C9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7F8BB6F156837BB006B0C9D /* HackLolla AppTests-Info.plist */,
+				C7F8BB70156837BB006B0C9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7F8BB41156837BA006B0C9D /* HackLolla App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F8BB78156837BB006B0C9D /* Build configuration list for PBXNativeTarget "HackLolla App" */;
+			buildPhases = (
+				C7F8BB3E156837BA006B0C9D /* Sources */,
+				C7F8BB3F156837BA006B0C9D /* Frameworks */,
+				C7F8BB40156837BA006B0C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HackLolla App";
+			productName = "HackLolla App";
+			productReference = C7F8BB42156837BA006B0C9D /* HackLolla App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7F8BB65156837BB006B0C9D /* HackLolla AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7F8BB7B156837BB006B0C9D /* Build configuration list for PBXNativeTarget "HackLolla AppTests" */;
+			buildPhases = (
+				C7F8BB61156837BB006B0C9D /* Sources */,
+				C7F8BB62156837BB006B0C9D /* Frameworks */,
+				C7F8BB63156837BB006B0C9D /* Resources */,
+				C7F8BB64156837BB006B0C9D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7F8BB6C156837BB006B0C9D /* PBXTargetDependency */,
+			);
+			name = "HackLolla AppTests";
+			productName = "HackLolla AppTests";
+			productReference = C7F8BB66156837BB006B0C9D /* HackLolla AppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7F8BB39156837BA006B0C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C7F8BB3C156837BA006B0C9D /* Build configuration list for PBXProject "HackLolla App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7F8BB37156837BA006B0C9D;
+			productRefGroup = C7F8BB43156837BA006B0C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7F8BB41156837BA006B0C9D /* HackLolla App */,
+				C7F8BB65156837BB006B0C9D /* HackLolla AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7F8BB40156837BA006B0C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8BB51156837BA006B0C9D /* InfoPlist.strings in Resources */,
+				C7F8BB5A156837BA006B0C9D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F8BB63156837BB006B0C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8BB72156837BB006B0C9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C7F8BB64156837BB006B0C9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7F8BB3E156837BA006B0C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8BB53156837BA006B0C9D /* main.m in Sources */,
+				C7F8BB57156837BA006B0C9D /* AppDelegate.m in Sources */,
+				C7F8BB5D156837BA006B0C9D /* MasterViewController.m in Sources */,
+				C7F8BB60156837BA006B0C9D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7F8BB61156837BB006B0C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F8BB75156837BB006B0C9D /* HackLolla_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7F8BB6C156837BB006B0C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7F8BB41156837BA006B0C9D /* HackLolla App */;
+			targetProxy = C7F8BB6B156837BB006B0C9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7F8BB4F156837BA006B0C9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F8BB50156837BA006B0C9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C7F8BB58156837BA006B0C9D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F8BB59156837BA006B0C9D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		C7F8BB70156837BB006B0C9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7F8BB71156837BB006B0C9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7F8BB76156837BB006B0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7F8BB77156837BB006B0C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7F8BB79156837BB006B0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackLolla App/HackLolla App-Prefix.pch";
+				INFOPLIST_FILE = "HackLolla App/HackLolla App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C7F8BB7A156837BB006B0C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackLolla App/HackLolla App-Prefix.pch";
+				INFOPLIST_FILE = "HackLolla App/HackLolla App-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C7F8BB7C156837BB006B0C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackLolla App.app/HackLolla App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackLolla App/HackLolla App-Prefix.pch";
+				INFOPLIST_FILE = "HackLolla AppTests/HackLolla AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C7F8BB7D156837BB006B0C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackLolla App.app/HackLolla App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackLolla App/HackLolla App-Prefix.pch";
+				INFOPLIST_FILE = "HackLolla AppTests/HackLolla AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7F8BB3C156837BA006B0C9D /* Build configuration list for PBXProject "HackLolla App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F8BB76156837BB006B0C9D /* Debug */,
+				C7F8BB77156837BB006B0C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7F8BB78156837BB006B0C9D /* Build configuration list for PBXNativeTarget "HackLolla App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F8BB79156837BB006B0C9D /* Debug */,
+				C7F8BB7A156837BB006B0C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7F8BB7B156837BB006B0C9D /* Build configuration list for PBXNativeTarget "HackLolla AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F8BB7C156837BB006B0C9D /* Debug */,
+				C7F8BB7D156837BB006B0C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7F8BB39156837BA006B0C9D /* Project object */;
+}
